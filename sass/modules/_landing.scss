@@ -1,0 +1,95 @@
+#landing__bg {
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--color-navy);
+}
+
+#landing__logo {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em; 
+}
+
+#landing__logo img {
+  height: 150px;
+  width: 150px;
+}
+
+#landing__logo p {
+  color: var(--color-white);
+  margin: -25px 0 0 10px;
+}
+
+#landing__cube {
+  margin: 3em;
+}
+
+#landing__cube h2 {
+  color: var(--color-white);
+  text-align: center;
+}
+
+#landing__cube__img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.cube__text__left {
+  display: none;
+  margin-top: 8em;
+  margin-right: 2em;
+}
+
+.cube__text__left__item {
+  margin-bottom: 4.5em;
+  text-align: right;
+}
+
+.cube__text__left__item h2:hover {
+  color: var(--color-yellow);
+}
+
+.cube__text__right {
+  display: none;
+  margin-top: 8em;
+  margin-left: 2em;
+}
+
+.cube__text__right__item {
+  margin-bottom: 4.5em;
+  text-align: left;
+}
+
+.cube__text__right__item h2:hover {
+  color: var(--color-yellow);
+}
+
+.landing__cube__poly {
+  width: 600px;
+  height: 600px;
+}
+
+.cube__poly__after {
+  display: none;
+}
+
+
+.showUp {
+  display: block;
+  animation-name: textSlideUp;
+  animation-duration: var(--animation-duration);
+}
+
+@keyframes textSlideUp {
+  from {
+    margin-top: 100%;
+    opacity: 0%;
+  }
+
+  to {
+    margin-top: 0%;
+    opacity: 100%;
+  }
+}
+

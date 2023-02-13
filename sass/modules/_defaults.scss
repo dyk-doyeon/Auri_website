@@ -1,24 +1,21 @@
-.hidden {
-  display: none;
-}
-
   /* Global */
 :root {
   /* Color */
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-navy: ##F5F5F5;
+  --color-navy: #001448;
+  --color-yellow: #d6c100;
   --color-dark-gray: #4d4d4d;
   --color-gray: #616161;
   --color-light-gray: #7c7979;
   --color-black: #000000;
 
   /* Font size */
-  --font-large: 28px;
-  --font-medium: 24px;
-  --font-regular: 18px;
-  --font-small: 16px;
+  --font-large: 25px;
+  --font-medium: 21px;
+  --font-regular: 16px;
+  --font-small: 12px;
 
   /* Font weight */
   --weight-semi-bold: 600;
@@ -31,7 +28,7 @@
   
 
   /* Animation */
-  
+  --animation-duration: 1500ms;
 
 }
 
@@ -63,3 +60,17 @@ ul {
 
 /* Typography */
 
+h2 {
+  font-size: var(--font-medium);
+  font-weight: var(--weight-regular);
+}
+
+h3 {
+  font-size: var(--font-regular);
+  font-weight: var(--weight-light);
+}
+
+p {
+  font-size: var(--font-small);
+  font-weight: var(--weight-extra-light);
+}
