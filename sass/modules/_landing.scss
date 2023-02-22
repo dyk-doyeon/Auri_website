@@ -1,13 +1,13 @@
 #landing__bg {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: var(--color-navy);
 }
 
 #landing__logo {
   display: flex;
   flex-direction: column;
-  padding: 1em 2em; 
+  padding: 0em 2em; 
 }
 
 #landing__logo img {
@@ -21,7 +21,7 @@
 }
 
 #landing__cube {
-  margin: 3em;
+  margin: 0;
 }
 
 #landing__cube h2 {
@@ -83,12 +83,14 @@
 
 @keyframes textSlideUp {
   from {
-    margin-top: 100%;
+    // margin-top: 100%;
+    scale: 0%;
     opacity: 0%;
   }
 
   to {
-    margin-top: 0%;
+    // margin-top: 0%;
+    scale: 100%;
     opacity: 100%;
   }
 }
